@@ -1,0 +1,50 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    min-height: 33rem;
+}
+
+.home-container h2 {
+    font-size: 2rem;
+}
+
+.meal-container {
+    position: relative;
+    width: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0.1rem 0.1rem 0.3rem #000;
+}
+
+.meal-container img {
+    width: 100%;
+    height: 100%;
+    transition: all .500ms ease-in-out;
+}
+
+.meal-container img:hover {
+    transform: rotate(3deg);
+    transform: scale(1.08);
+
+}
+
+.description-contain {
+    position: absolute;
+    bottom: 0;
+    height: 15%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: #fff;
+}
